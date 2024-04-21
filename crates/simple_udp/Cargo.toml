@@ -1,0 +1,14 @@
+[package]
+name = "simple_udp"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "simple-udp-client"
+path = "client.rs"
+
+[[bin]]
+name = "simple-udp-server"
+path = "server.rs"
+
+[dependencies]

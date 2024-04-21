@@ -1,0 +1,11 @@
+[package]
+name = "tokio_udp"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "tokio-udp-server"
+path = "server.rs"
+
+[dependencies]
+tokio = { version = "1.26.0", features = ["full"] }
